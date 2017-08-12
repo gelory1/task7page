@@ -1,0 +1,110 @@
+body{
+    font-size: 62.5%;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    padding-bottom: 5em;
+    background-color: rgb(41,189,224);
+    margin: 0;
+    position: relative;
+}
+.menu{
+    width: 2.5em;
+    padding-bottom: 2em;
+    margin: 1em;
+    position: absolute;
+    top: .2em;
+    left: .2em;
+}
+.line{
+    width:100%;
+    padding-bottom: .25em;
+    background-color: #FFFFFF;
+    overflow:hidden;
+    margin: .5em;
+}
+.container-fluid{
+    background-color: rgb(240,240,240);
+}
+.row{
+    position: relative;
+
+}
+.lastgame{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 1.5em 0;
+    margin: 1.5em;
+    color: #999999;
+    font-family: "Hiragino Sans GB W3";
+    font-size: 1.2em;
+}
+.enter{
+    position: absolute;
+    top: .75em;
+    right: 1em;
+    color: #cccccc;
+    font-size: 3em;
+}
+.content{
+    background-color: #FFFFFF;
+    padding: 1em 0;
+    margin: 0 1.5em;
+}
+.theme{
+    padding-bottom: 1em;
+    text-align: center;
+    font-family: "Hiragino Sans GB W3";
+    font-size: 1.2em;
+    color: rgb(105,209,233);
+    border-bottom: thin solid rgb(251,180,53);
+}
+.ed1{
+    text-align: center;
+    margin: 1.5em 1.5em .5em 1.5em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    font-family: "Hiragino Sans GB W3";
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: rgb(105,209,233);
+}
+.ins{
+    font-family: "Hiragino Sans GB W3";
+    font-size: 1em;
+    text-align: center;
+    color: #999999;
+}
+.opt{
+    width: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+.circle1{
+    width: .5em;
+    background-color: rgb(105,209,233);
+    border-radius: 50%;
+    padding-bottom: .5em;
+    margin-right: .5em;
+    float: left;
+}
+.circle2{
+    width: .5em;
+    background-color: #cccccc;
+    border-radius: 50%;
+    padding-bottom: .5em;
+    margin-right: .5em;
+    float: left;
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 1em solid transparent;
+    border-left: 1em solid rgb(251,180,53);
+    border-bottom: 1em solid transparent;
+    position: absolute;
+    top: 15.5em;
+    right: 1.8em;
+}
