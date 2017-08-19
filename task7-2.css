@@ -94,8 +94,9 @@
 }
 .row1{
     background-color: rgb(245,201,123);
-    width: 6em;
-    padding: 2em 0 1.5em 0;
+    width: 20vw;
+    height: 18vw;
+    line-height: 18vw;
     float: none;
     display: block;
     margin-left: auto;
@@ -106,7 +107,9 @@
 }
 .row2{
     background-color: rgb(131,176,154);
-    width: 6em;
+    width: 20vw;
+    height: 5vw;
+    line-height: 5vw;
     float: none;
     display: block;
     margin-left: auto;
@@ -118,13 +121,17 @@
 .row3{
     opacity: 0;
     float: none;
+    height: 6vw;
+    line-height: 6vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 img{
     background-color: #FFFFFF;
-    width: 1.1em;
-    height: 1.1em;
-    padding: .15em;
-    margin-top: .5em;
+    width: 4vw;
+    height: 4vw;
+    padding: .3vw;
+    margin-top: .3vw;
 }
 .col-xs-4:hover .row3{
     opacity: 1;
